@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squire-Document</title>
+
+    <style>
+        #demo{
+
+            color:brown;
+            font-size: 20px;
+            
+
+
+        }
+      
+    </style>
+</head>
+<body>
+    <p>
+        Squire result show 
+    </p>
+
+    <p id="demo" ></p>
+    <script>
+
+        const numbers = [2 ,3, 5,8, 9];
+    
+        document.getElementById("demo").innerHTML = 
+
+         numbers.map(function (element){
+
+            return element * element ; 
+        });
+
+
+
+    </script>
+
+
+</body>
+
+</html>
