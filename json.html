@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    
+    <h1>JSON </h1>
+    <p> javaScript Object Notation</p>
+</body>
+
+<script>
+
+    const user = { id:2001, name : "kamal", age: 41}
+
+    const convertJson = JSON.stringify(user);
+
+    console.log( convertJson);
+
+    // Result of Output come = "id":2001,"name":"kamal","age":41 its going to convert in String ;
+     
+
+    // now you going be decide make this string convert on Object ; 
+
+    // so you can going to use parse
+
+    const convertObject = JSON.parse(convertJson);
+
+    console.log(convertObject);
+
+    // now going convert Object :  = id: 2001, name: 'kamal', age: 41 ;
+
+
+
+ 
+</script>
+</html>

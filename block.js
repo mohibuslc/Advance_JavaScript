@@ -1,23 +1,31 @@
 
-let block1 = 20
+
+
+
+let block = 99
 
 function sum (first , second ){
 
-    let result = first + second + block1; 
+    let result = first + second  ;
 
-    if( result >9){
 
-        var mood = " Hankey ";
+    if(result > 9){
 
-        
+    var mood = ['kamal', 
+    'jamal','tina'];
+
+    
+             console.log(mood);
+
+             return result ;
     }
 
-    console.log(mood)
-    return result ;
-   
 
+    
+
+    
 }
 
-const block = sum ( 7 , 3);
+const bloack = sum ( 3 , 3 );
 
-console.log(block);
+console.log ( bloack)
